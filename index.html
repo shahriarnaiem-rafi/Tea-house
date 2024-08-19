@@ -22,21 +22,17 @@
                     extend: {
                       colors: {
                         clifford: '#da373d',
+                      },
+                      fontFamily:{
+                        'manrope':[ "Manrope", sans-serif],
                       }
                     }
                   }
                 }
               </script>
 
-        <style>
-            .manrope-font{
-              font-family: "Manrope", sans-serif;    
-            }
-
-        </style>
-
 </head>
-<body>
+<body class="font-manrope">
     <!-- main container -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- header -->
@@ -305,8 +301,11 @@
               <div class="flex flext-col space-y-2">
                 <div>
                   <input class="bg-transparent border-b-2 border-black w-4/6 " type="text" placeholder="Email Address">
-                  <i class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 rounded-full text-white  justify-center  items-center"></i>
-                  <div class="flex justify-center w-2/5 mb-2 mt-8 justify-between">
+
+                  <i class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 rounded-full text-white justify-center items-center "></i>
+
+
+                  <div class="flex w-2/5 mb-2 mt-8 justify-between">
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-square-instagram"></i>
                     <i class="fa-brands fa-square-twitter"></i>
